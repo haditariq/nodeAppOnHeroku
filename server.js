@@ -3,7 +3,7 @@ var express = require('express');
 const server = express();
 
 server.get('/', (req, res) => {
-	res.send("<H1>Hello World</H1>");
+	res.send("sfgkshdkj");
 });
 
 // server.listen(config.port, () => {
