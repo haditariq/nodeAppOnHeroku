@@ -10,4 +10,4 @@ server.get('/', (req, res) => {
 // 	console.info("Express listening at port " + config.port);
 // });
 
-server.listen(3000)
+server.listen(process.env.PORT)
